@@ -2512,6 +2512,7 @@ data and are closely related to string objects in a variety of other ways.
    In addition to the literal forms, bytes objects can be created in a number of
    other ways:
 
+   * Creating an empty instance: ``bytes()``
    * A zero-filled bytes object of a specified length: ``bytes(10)``
    * From an iterable of integers: ``bytes(range(20))``
    * Copying existing binary data via the buffer protocol:  ``bytes(obj)``
